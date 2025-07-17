@@ -9,7 +9,7 @@
             {
                 "name": "Twitch",
                 "channel": "xthrasherrr",
-                "parents": ["xthrasherrr.dev", "localhost"],
+                "parents": ["xthrasherrr.dev", "www.xthrasherrr.dev", "xthrasherrr.github.io", "www.xthrasherrr.github.io"],
                 "autoplay": true,
                 "width": "560",
                 "height": "315"
