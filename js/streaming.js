@@ -8,7 +8,8 @@ window.addEventListener('DOMContentLoaded', () => {
             let src = '';
 
             if (e.name === 'Twitch') {
-                src = `https://player.twitch.tv/?channel=${encodeURIComponent(e.channel)}&parent=xthrasherrr.dev&autoplay=1`;
+                const host = window.location.host;
+                src = `https://player.twitch.tv/?channel=${encodeURIComponent(e.channel)}&parent=${encodeURIComponent(host)}&autoplay=1`;
             } else if (e.name === 'Kick') {
                 src = `https://kick.com/embed/live/${encodeURIComponent(e.channel)}?autoplay=${e.autoplay ? 1 : 0}`;
             } else if (e.embedUrl) {
