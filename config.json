@@ -1,8 +1,8 @@
 {
     "streaming": {
         "links": [
-            { "name": "Twitch", "url": "https://twitch.tv/xthrasherrr", "iconClass": "fab fa-kick" },
-            { "name": "Kick", "url": "https://kick.com/xthrasherrr", "iconClass": "fab fa-youtube" }
+            { "name": "Twitch", "url": "https://twitch.tv/xthrasherrr", "iconClass": "fab fa-twitch" },
+            { "name": "Kick", "url": "https://kick.com/xthrasherrr", "iconClass": "fas fa-video" }
         ],
 
         "embeds": [
@@ -26,7 +26,9 @@
 
     "development": {
         "links": [
-            { "name": "GitHub", "url": "https://github.com/xThrasherrr", "iconClass": "fab fa-github" }
+            { "name": "Discord", "url": "https://discord.xthrasherrr.dev", "iconClass": "fab fa-discord" },
+            { "name": "GitHub", "url": "https://github.com/xThrasherrr", "iconClass": "fab fa-github" },
+            { "name": "Tebex", "url": "https://store.xthrasherrr.dev", "iconClass": "fas fa-cart-shopping" }
         ]
     }
 }
