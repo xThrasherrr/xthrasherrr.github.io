@@ -1,0 +1,56 @@
+/* Dark theme + shared styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.logo { width: 150px; margin-bottom: 2rem; }
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: #1f1f1f;
+    border: 2px solid #333;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.2s, border-color 0.2s;
+}
+.btn i { font-size: 1.25rem; }
+.btn:hover { background: #2a2a2a; border-color: #555; }
+
+.embeds {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.embeds iframe {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    max-width: 100%;
+}

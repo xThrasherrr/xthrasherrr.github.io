@@ -1,0 +1,32 @@
+{
+    "streaming": {
+        "links": [
+            { "name": "Twitch", "url": "https://twitch.tv/xthrasherrr", "iconClass": "fab fa-kick" },
+            { "name": "Kick", "url": "https://kick.com/xthrasherrr", "iconClass": "fab fa-youtube" }
+        ],
+
+        "embeds": [
+            {
+                "name": "Twitch",
+                "channel": "xthrasherrr",
+                "parents": ["xthrasherrr.dev", "localhost"],
+                "autoplay": true,
+                "width": "560",
+                "height": "315"
+            },
+            {
+                "name": "Kick",
+                "channel": "xthrasherrr",
+                "autoplay": true,
+                "width": "560",
+                "height": "315"
+            }
+        ]
+    },
+
+    "development": {
+        "links": [
+            { "name": "GitHub", "url": "https://github.com/xThrasherrr", "iconClass": "fab fa-github" }
+        ]
+    }
+}
